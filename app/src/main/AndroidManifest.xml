@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.mido.roomdemo">
+    package="com.mido.crm">
 
     <application
-        android:name=".EmployeeApp"
+        android:name="com.mido.crm.EmployeeApp"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -11,10 +11,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.RoomDemo">
         <activity
-            android:name=".CustomerActivity"
+            android:name="com.mido.crm.CustomerActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.mido.crm.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

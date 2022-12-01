@@ -1,10 +1,10 @@
-package com.mido.roomdemo
+package com.mido.crm
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
-import com.mido.roomdemo.databinding.ItemsRowBinding
+import com.mido.crm.databinding.ItemsRowBinding
 
 ///// Passing EmployeeEntity as the items array because it's the data model (data class of room)
 class ItemAdapter(

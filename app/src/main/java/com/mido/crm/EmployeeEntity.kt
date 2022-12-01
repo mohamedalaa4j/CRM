@@ -1,4 +1,4 @@
-package com.mido.roomdemo
+package com.mido.crm
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity

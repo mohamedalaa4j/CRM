@@ -1,10 +1,10 @@
-package com.mido.roomdemo
+package com.mido.crm
 
 import android.content.Intent
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.mido.roomdemo.databinding.ActivityCustomerBinding
+import com.mido.crm.databinding.ActivityCustomerBinding
 
 class CustomerActivity : AppCompatActivity() {
     private var binding : ActivityCustomerBinding?=null

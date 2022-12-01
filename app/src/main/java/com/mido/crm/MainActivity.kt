@@ -1,4 +1,4 @@
-package com.mido.roomdemo
+package com.mido.crm
 
 import android.app.AlertDialog
 import android.app.Dialog
@@ -9,8 +9,8 @@ import android.view.View
 import android.widget.Toast
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.mido.roomdemo.databinding.ActivityMainBinding
-import com.mido.roomdemo.databinding.DialogUpdateBinding
+import com.mido.crm.databinding.ActivityMainBinding
+import com.mido.crm.databinding.DialogUpdateBinding
 import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.launch
 
